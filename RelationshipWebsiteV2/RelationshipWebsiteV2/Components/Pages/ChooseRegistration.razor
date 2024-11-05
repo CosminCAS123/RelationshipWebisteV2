@@ -1,0 +1,29 @@
+﻿@page "/"
+@rendermode InteractiveServer
+
+
+@inject NavigationManager navManager
+
+
+<div class="d-flex justify-content-center align-items-center text-center px-4" style="height: 100vh; background-color: #ffc0cb;">
+    <div class="w-100" style="max-width: 600px;">
+        <h1 class="mb-5">Welcome to our website dedicated to relationships. Find out if your partner is suited for you!</h1>
+        <div class="d-flex flex-column gap-3">
+            <Button Color="ButtonColor.Primary" Size="ButtonSize.ExtraLarge" @onclick = "RegisterPressed"> Register</Button>
+            <Button Color="ButtonColor.Secondary" Size="ButtonSize.ExtraLarge" @onclick = "LoginPressed">Login</Button>
+        </div>
+    </div>
+</div>
+
+@code{
+    private void RegisterPressed()
+    {
+        navManager.NavigateTo("/register");
+    }
+
+    private void LoginPressed()
+    {
+        navManager.NavigateTo("/login");
+    }
+
+}

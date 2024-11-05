@@ -1,0 +1,37 @@
+﻿@page "/login"
+@rendermode InteractiveServer
+@using Models
+
+<div class="d-flex justify-content-center align-items-center text-center" style="height: 100vh;">
+    <div class="w-100 p-4" style="max-width: 400px;">
+        <h2 class="mb-4">Login to Your Account</h2>
+
+        <EditForm Model=@loginModel OnValidSubmit=@LoginSubmitted>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <InputText id="email" type="email" class="form-control" placeholder="Enter your email" @bind-Value = "loginModel.Email" />
+            </div>
+
+            <div class="form-group mt-3">
+                <label for="password">Password</label>
+                <InputText id="password" type="password" class="form-control" placeholder="Enter your password" @bind-Value="loginModel.Password" />
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100 mt-4">Login</button>
+        </EditForm>
+
+      
+    </div>
+</div>
+
+@code{
+
+    LoginModel loginModel = new LoginModel();
+
+    private async Task LoginSubmitted()
+    {
+        
+    }
+
+
+}

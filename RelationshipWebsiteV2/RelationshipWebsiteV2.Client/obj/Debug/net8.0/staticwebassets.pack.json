@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Andrew Vape\\source\\repos\\RelationshipWebsiteV2\\RelationshipWebsiteV2\\RelationshipWebsiteV2.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Andrew Vape\\source\\repos\\RelationshipWebsiteV2\\RelationshipWebsiteV2\\RelationshipWebsiteV2.Client\\obj\\Debug\\net8.0\\compressed\\zzy9tcg1v0.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RelationshipWebsiteV2.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RelationshipWebsiteV2.Client.props",
+      "PackagePath": "build\\RelationshipWebsiteV2.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RelationshipWebsiteV2.Client.props",
+      "PackagePath": "buildMultiTargeting\\RelationshipWebsiteV2.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RelationshipWebsiteV2.Client.props",
+      "PackagePath": "buildTransitive\\RelationshipWebsiteV2.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

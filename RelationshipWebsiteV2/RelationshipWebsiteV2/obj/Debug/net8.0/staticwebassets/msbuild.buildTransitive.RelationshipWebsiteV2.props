@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\RelationshipWebsiteV2.props" />
+</Project>

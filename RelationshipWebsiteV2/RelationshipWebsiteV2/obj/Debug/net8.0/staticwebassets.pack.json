@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Andrew Vape\\source\\repos\\RelationshipWebsiteV2\\RelationshipWebsiteV2\\RelationshipWebsiteV2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RelationshipWebsiteV2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RelationshipWebsiteV2.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Andrew Vape\\source\\repos\\RelationshipWebsiteV2\\RelationshipWebsiteV2\\RelationshipWebsiteV2\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RelationshipWebsiteV2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RelationshipWebsiteV2.props",
+      "PackagePath": "build\\RelationshipWebsiteV2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RelationshipWebsiteV2.props",
+      "PackagePath": "buildMultiTargeting\\RelationshipWebsiteV2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RelationshipWebsiteV2.props",
+      "PackagePath": "buildTransitive\\RelationshipWebsiteV2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
