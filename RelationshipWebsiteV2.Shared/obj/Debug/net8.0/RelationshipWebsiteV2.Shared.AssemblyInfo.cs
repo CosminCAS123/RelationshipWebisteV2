@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RelationshipWebsiteV2.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76fbcb5ee7f2ee8d7491f7aa9640b4061e161edc")]
 [assembly: System.Reflection.AssemblyProductAttribute("RelationshipWebsiteV2.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RelationshipWebsiteV2.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

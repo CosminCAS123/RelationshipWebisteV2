@@ -7,6 +7,8 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
 
+
+
 builder.Services.AddBlazorBootstrap();
 
 var app = builder.Build();
@@ -30,7 +32,7 @@ app.UseAntiforgery();
 
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode()
-    .AddInteractiveWebAssemblyRenderMode()
-    .AddAdditionalAssemblies(typeof(RelationshipWebsiteV2.Client._Imports).Assembly);
+    .AddInteractiveWebAssemblyRenderMode();
+
 
 app.Run();

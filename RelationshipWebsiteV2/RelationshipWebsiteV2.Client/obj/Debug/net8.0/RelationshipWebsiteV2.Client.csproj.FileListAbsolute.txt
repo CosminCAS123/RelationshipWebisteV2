@@ -1031,3 +1031,4 @@ C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\Re
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\refint\RelationshipWebsiteV2.Client.dll
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\RelationshipWebsiteV2.Client.pdb
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\ref\RelationshipWebsiteV2.Client.dll
+C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\RelationshipWebsiteV2.Client.sourcelink.json

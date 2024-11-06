@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
+using RelationshipWebsiteV2.Shared;
+using RelationshipWebsiteV2.Shared.CustomAttributes;
 namespace RelationshipWebsiteV2.Models
 {
     public class RegisterModel
@@ -23,6 +24,11 @@ namespace RelationshipWebsiteV2.Models
         [DataType(DataType.Password)]
         public string ConfirmPassword { get; set; }
         [Range(18 , 80 , ErrorMessage =  "Age must be between 18 and 80.")]
-        public int Age { get; set; }
+
+
+        [MinAge(18)]
+        public DateOnly? Birthdate { get; set; }
+
+
     }
 }
