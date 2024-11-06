@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\RelationshipWebsiteV2.Shared\RelationshipWebsiteV2.Shared.csproj" />
+    <ProjectReference Include="..\RelationshipWebsiteV2.Client\RelationshipWebsiteV2.Client.csproj" />
     <PackageReference Include="Blazor.Bootstrap" Version="3.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />

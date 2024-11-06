@@ -1,3 +1,4 @@
+using RelationshipWebsiteV2;
 using RelationshipWebsiteV2.Components;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,7 +8,8 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
 
-
+builder.Services.AddDbContext<RelationshipDBContext>();
+builder.Services.AddCustomServices();
 
 builder.Services.AddBlazorBootstrap();
 

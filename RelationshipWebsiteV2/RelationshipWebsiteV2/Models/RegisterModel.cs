@@ -23,7 +23,7 @@ namespace RelationshipWebsiteV2.Models
         [Compare("Password", ErrorMessage = "Passwords do not match.")]
         [DataType(DataType.Password)]
         public string ConfirmPassword { get; set; }
-        [Range(18 , 80 , ErrorMessage =  "Age must be between 18 and 80.")]
+      
 
 
         [MinAge(18)]
