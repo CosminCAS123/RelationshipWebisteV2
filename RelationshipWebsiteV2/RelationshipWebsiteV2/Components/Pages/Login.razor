@@ -2,25 +2,30 @@
 @rendermode InteractiveServer
 @using Models
 
-<div class="d-flex justify-content-center align-items-center text-center" style="height: 100vh;">
-    <div class="w-100 p-4" style="max-width: 400px;">
-        <h2 class="mb-4">Login to Your Account</h2>
+<head >
+    <link href="~/authpages.css" rel="stylesheet" />
+</head>
 
-        <EditForm Model=@loginModel OnValidSubmit=@LoginSubmitted>
+<div class="d-flex justify-content-center align-items-center text-center" style="height: 100vh; background-color: #f0e5ff;">
+    <div class="w-100 p-4" style="max-width: 400px; background-color: #ffffff; border: 2px solid #6c63ff; border-radius: 12px; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);">
+        <h2 class="mb-4" style="color: #6c63ff;">Login to Your Account</h2>
+
+        <EditForm Model="@loginModel" OnValidSubmit="@LoginSubmitted" class="form-container">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
             <div class="form-group">
-                <label for="email">Email</label>
-                <InputText id="email" type="email" class="form-control" placeholder="Enter your email" @bind-Value = "loginModel.Email" />
+                <label for="email" style="color: #6c63ff;">Email</label>
+                <InputText id="email" type="email" class="form-control" placeholder="Enter your email" @bind-Value="loginModel.Email" />
             </div>
 
             <div class="form-group mt-3">
-                <label for="password">Password</label>
+                <label for="password" style="color: #6c63ff;">Password</label>
                 <InputText id="password" type="password" class="form-control" placeholder="Enter your password" @bind-Value="loginModel.Password" />
             </div>
 
-            <button type="submit" class="btn btn-primary w-100 mt-4">Login</button>
+            <button type="submit" class="btn btn-purple w-100 mt-4" style="background-color: #6c63ff; color: white; border-color: #6c63ff;">Login</button>
         </EditForm>
-
-      
     </div>
 </div>
 

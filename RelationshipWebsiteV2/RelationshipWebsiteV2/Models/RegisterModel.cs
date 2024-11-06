@@ -5,7 +5,7 @@ namespace RelationshipWebsiteV2.Models
     public class RegisterModel
     {
         [Required(ErrorMessage = "Username is required.")]
-        [StringLength(20, ErrorMessage = "Username cannot exceed 20 characters.")]
+        [StringLength( 20, MinimumLength = 7 ,  ErrorMessage = "Username must be between 7 and 20 characters.")]
         public string Username { get; set; }
 
         [Required(ErrorMessage = "Email is required.")]
@@ -22,5 +22,7 @@ namespace RelationshipWebsiteV2.Models
         [Compare("Password", ErrorMessage = "Passwords do not match.")]
         [DataType(DataType.Password)]
         public string ConfirmPassword { get; set; }
+        [Range(18 , 80 , ErrorMessage =  "Age must be between 18 and 80.")]
+        public int Age { get; set; }
     }
 }

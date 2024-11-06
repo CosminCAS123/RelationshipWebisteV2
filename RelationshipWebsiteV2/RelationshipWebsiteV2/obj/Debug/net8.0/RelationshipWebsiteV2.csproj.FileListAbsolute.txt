@@ -56,3 +56,4 @@ C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\Re
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2\obj\Debug\net8.0\RelationshipWebsiteV2.pdb
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2\obj\Debug\net8.0\RelationshipWebsiteV2.genruntimeconfig.cache
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2\obj\Debug\net8.0\ref\RelationshipWebsiteV2.dll
+C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2\obj\Debug\net8.0\RelationshipWebsiteV2.sourcelink.json

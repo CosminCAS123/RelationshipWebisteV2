@@ -2,37 +2,46 @@
 @rendermode InteractiveServer
 @using Models
 
-<div class="d-flex justify-content-center align-items-center text-center" style="height: 100vh;">
-    <div class="w-100 p-4" style="max-width: 400px;">
-        <h2 class="mb-4">Create Your Account</h2>
 
-        <EditForm Model=@registerModel OnValidSubmit=@RegisterSubmitted>
+
+<div class="d-flex justify-content-center align-items-center text-center" style="height: 100vh; background-color: #f0e5ff;">
+    <div class="w-100 p-4" style="max-width: 400px; background-color: #ffffff; border: 2px solid #6c63ff; border-radius: 12px; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);">
+        <h2 class="mb-4" style="color: #6c63ff;">Create Your Account</h2>
+
+        <EditForm Model="@registerModel" OnValidSubmit="@RegisterSubmitted" class="form-container">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
             <div class="form-group">
-                <label for="username">Username</label>
-                <InputText id="username" class="form-control" placeholder="Enter your username" @bind-Value ="registerModel.Username" />
+                <label for="username" style="color: #6c63ff;">Username</label>
+                <InputText id="username" class="form-control" placeholder="Enter your username" @bind-Value="registerModel.Username" />
             </div>
 
             <div class="form-group mt-3">
-                <label for="email">Email</label>
+                <label for="email" style="color: #6c63ff;">Email</label>
                 <InputText id="email" type="email" class="form-control" placeholder="Enter your email" @bind-Value="registerModel.Email" />
             </div>
 
             <div class="form-group mt-3">
-                <label for="password">Password</label>
+                <label for="password" style="color: #6c63ff;">Password</label>
                 <InputText id="password" type="password" class="form-control" placeholder="Enter your password" @bind-Value="registerModel.Password" />
             </div>
+
             <div class="form-group mt-3">
-                <label for="confirmpassword">Password</label>
-                <InputText id="confirmpassword" type="password" class="form-control" placeholder="Enter your password" @bind-Value="registerModel.ConfirmPassword" />
+                <label for="confirmpassword" style="color: #6c63ff;">Confirm Password</label>
+                <InputText id="confirmpassword" type="password" class="form-control" placeholder="Confirm your password" @bind-Value="registerModel.ConfirmPassword" />
             </div>
 
+            <div class="form-group mt-3">
+                <label class="form-label" for="age" style="color: #6c63ff;">Age</label>
+                <NumberInput TValue="int" @bind-Value="registerModel.Age" Placeholder="Enter your age" EnableMinMax="true" Min="18" Max="80" Class="form-control" />
+            </div>
 
-            <button type="submit" class="btn btn-primary w-100 mt-4">Register</button>
+            <button type="submit" class="btn btn-purple w-100 mt-4" style="background-color: #6c63ff; color: white; border-color: #6c63ff;">Register</button>
         </EditForm>
-
-       
     </div>
 </div>
+
 
 @code {
     RegisterModel registerModel = new RegisterModel();

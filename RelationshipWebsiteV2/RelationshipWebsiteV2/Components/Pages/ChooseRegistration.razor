@@ -6,11 +6,14 @@
 
 
 <div class="d-flex justify-content-center align-items-center text-center px-4" style="height: 100vh; background-color: #ffc0cb;">
-    <div class="w-100" style="max-width: 600px;">
-        <h1 class="mb-5">Welcome to our website dedicated to relationships. Find out if your partner is suited for you!</h1>
+    <div class="w-100 p-5 bg-white rounded shadow" style="max-width: 600px; border: 2px solid #ff69b4;">
+        <h1 class="mb-5" style="color: #000000; font-weight: 800;">Welcome to Our Relationship Website</h1>
+
+        <p class="mb-4" style="font-size: 1.25rem; color: #555;">Find out if your partner is suited for you!</p>
+
         <div class="d-flex flex-column gap-3">
-            <Button Color="ButtonColor.Primary" Size="ButtonSize.ExtraLarge" @onclick = "RegisterPressed"> Register</Button>
-            <Button Color="ButtonColor.Secondary" Size="ButtonSize.ExtraLarge" @onclick = "LoginPressed">Login</Button>
+            <Button  Size="ButtonSize.ExtraLarge" Style="background-color: #ff69b4; color: white; border-color: #ff69b4;" @onclick="RegisterPressed">Register</Button>
+            <Button  Size="ButtonSize.ExtraLarge" Style="background-color: #6c63ff; color: white; border-color: #6c63ff;" @onclick="LoginPressed">Login</Button>
         </div>
     </div>
 </div>
