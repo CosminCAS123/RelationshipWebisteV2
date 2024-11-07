@@ -38,7 +38,7 @@
                 <DateInput id="birthDate" TValue = "DateOnly" @bind-Value = "registerModel.Birthdate" Placeholder = "Enter your birthdate" class="form-control"
                 EnableMinMax = "true" Max="@max" min ="@min" />
             </div>
-            <p class="form-group mt-3">@registerMessage</p>
+            <p class="form-group mt-3 @(isSuccess ? "success-message" : "failure-message") ">@registerMessage</p>
             <button type="submit" class="btn btn-primary w-100 mt-4">Register</button>
         </EditForm>
     </div>
@@ -48,6 +48,7 @@
     RegisterModel registerModel = new RegisterModel();
     private DateOnly max;
     private DateOnly min;
+    private bool isSuccess = false;
 
 
     private string registerMessage = string.Empty;
@@ -59,16 +60,16 @@
         //try to add to db
 
         OperationResult result =  await this.userService.RegisterAsync(this.registerModel);
-
+        this.registerMessage = result.Message;
         if (!result.Success)
         {
-            this.registerMessage = result.Message;
+           
+            this.isSuccess = false;
             return;
         }
-
         //added to db
         //add later navigation
-        this.registerMessage = result.Message;
+        this.isSuccess = true;
 
 
     }

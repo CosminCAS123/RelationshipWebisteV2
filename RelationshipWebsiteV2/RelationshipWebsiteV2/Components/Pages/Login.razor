@@ -1,6 +1,8 @@
 ﻿@page "/login"
 @rendermode InteractiveServer
 @using Models
+@using Services
+@inject IUserService userService
 
 <head >
     <link href="~/authpages.css" rel="stylesheet" />
@@ -23,7 +25,7 @@
                 <label for="password" style="color: #6c63ff;">Password</label>
                 <InputText id="password" type="password" class="form-control" placeholder="Enter your password" @bind-Value="loginModel.Password" />
             </div>
-
+            <p class="form-group mt-3 @(isSuccess ? "success-message" : "failure-message") ">@loginMessage</p>
             <button type="submit" class="btn btn-purple w-100 mt-4" style="background-color: #6c63ff; color: white; border-color: #6c63ff;">Login</button>
         </EditForm>
     </div>
@@ -32,10 +34,24 @@
 @code{
 
     LoginModel loginModel = new LoginModel();
+    private bool isSuccess = false;
+    private string loginMessage = string.Empty;
 
     private async Task LoginSubmitted()
     {
-        
+        var result = await this.userService.LoginAsync(this.loginModel);
+        this.loginMessage = result.Message;
+        if (!result.Success)
+        {
+
+            this.isSuccess = false;
+            return;
+        }
+        //do later navigation
+
+        this.isSuccess = true;
+
+
     }
 
 
