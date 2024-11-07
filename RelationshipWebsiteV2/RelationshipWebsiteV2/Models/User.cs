@@ -15,7 +15,7 @@ namespace RelationshipWebsiteV2.Models
         public string Username { get; set; }
         public string Email { get; set; }
         public string PasswordHash { get; set; } // Hashed password for security
-        public DateOnly? DateOfBirth { get; set; }
+        public DateOnly DateOfBirth { get; set; }
         public DateOnly CreatedDate { get; set; } // Account creation date
       
 

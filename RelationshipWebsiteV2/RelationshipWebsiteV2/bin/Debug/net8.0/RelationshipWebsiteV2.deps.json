@@ -840,7 +840,8 @@
       "RelationshipWebsiteV2.Client/1.0.0": {
         "dependencies": {
           "Blazor.Bootstrap": "3.1.1",
-          "Microsoft.AspNetCore.Components.WebAssembly": "8.0.4"
+          "Microsoft.AspNetCore.Components.WebAssembly": "8.0.4",
+          "RelationshipWebsiteV2.Shared": "1.0.0"
         },
         "runtime": {
           "RelationshipWebsiteV2.Client.dll": {}

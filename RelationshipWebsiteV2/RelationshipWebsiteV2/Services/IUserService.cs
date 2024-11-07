@@ -7,10 +7,10 @@ namespace RelationshipWebsiteV2.Services
     {
         Task<OperationResult> RegisterAsync(RegisterModel registerModel);
         Task<OperationResult> LoginAsync(LoginModel loginModel);
-        Task<User?> GetByEmailAsync(string email);
+       
 
         Task DeleteAsync(int id);
-        Task<bool> EmailExistsAsync(string email);
+    
 
         Task<User> GetByIdAsync(int id);
 

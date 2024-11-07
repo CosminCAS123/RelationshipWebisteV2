@@ -5,8 +5,8 @@ C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2.Sh
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2.Shared\obj\Debug\net8.0\RelationshipWebsiteV2.Shared.AssemblyInfoInputs.cache
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2.Shared\obj\Debug\net8.0\RelationshipWebsiteV2.Shared.AssemblyInfo.cs
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2.Shared\obj\Debug\net8.0\RelationshipWebsiteV2.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2.Shared\obj\Debug\net8.0\RelationshipWebsiteV2.Shared.sourcelink.json
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2.Shared\obj\Debug\net8.0\RelationshipWebsiteV2.Shared.dll
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2.Shared\obj\Debug\net8.0\refint\RelationshipWebsiteV2.Shared.dll
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2.Shared\obj\Debug\net8.0\RelationshipWebsiteV2.Shared.pdb
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2.Shared\obj\Debug\net8.0\ref\RelationshipWebsiteV2.Shared.dll
-C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2.Shared\obj\Debug\net8.0\RelationshipWebsiteV2.Shared.sourcelink.json

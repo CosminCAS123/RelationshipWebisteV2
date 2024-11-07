@@ -97,7 +97,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Andrew Vape\\source\\repos\\RelationshipWebsiteV2\\RelationshipWebsiteV2.Shared\\RelationshipWebsiteV2.Shared.csproj": {
+                "projectPath": "C:\\Users\\Andrew Vape\\source\\repos\\RelationshipWebsiteV2\\RelationshipWebsiteV2.Shared\\RelationshipWebsiteV2.Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

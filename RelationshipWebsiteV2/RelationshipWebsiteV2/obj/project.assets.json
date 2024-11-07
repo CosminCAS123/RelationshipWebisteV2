@@ -1351,7 +1351,8 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Blazor.Bootstrap": "3.1.1",
-          "Microsoft.AspNetCore.Components.WebAssembly": "8.0.4"
+          "Microsoft.AspNetCore.Components.WebAssembly": "8.0.4",
+          "RelationshipWebsiteV2.Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/RelationshipWebsiteV2.Client.dll": {}

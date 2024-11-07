@@ -1,8 +1,9 @@
 ﻿@page "/register"
 @rendermode InteractiveServer
 @using Models
-
-
+@using Services
+@inject IUserService userService
+@using Shared
 
 <div class="d-flex justify-content-center align-items-center text-center bg-light" style="height: 100vh;">
     <div class="w-100 p-4 bg-white rounded shadow" style="max-width: 400px;">
@@ -34,10 +35,10 @@
 
             <div class="form-group mt-3">
                 <label for="birthDate">Date of Birth</label>
-                <DateInput id="birthDate" TValue = "DateOnly?" @bind-Value = "registerModel.Birthdate" Placeholder = "Enter your birthdate" class="form-control"
+                <DateInput id="birthDate" TValue = "DateOnly" @bind-Value = "registerModel.Birthdate" Placeholder = "Enter your birthdate" class="form-control"
                 EnableMinMax = "true" Max="@max" min ="@min" />
             </div>
-
+            <p class="form-group mt-3">@registerMessage</p>
             <button type="submit" class="btn btn-primary w-100 mt-4">Register</button>
         </EditForm>
     </div>
@@ -49,15 +50,31 @@
     private DateOnly min;
 
 
-
+    private string registerMessage = string.Empty;
 
 
     private async Task RegisterSubmitted()
     {
 
+        //try to add to db
+
+        OperationResult result =  await this.userService.RegisterAsync(this.registerModel);
+
+        if (!result.Success)
+        {
+            this.registerMessage = result.Message;
+            return;
+        }
+
+        //added to db
+        //add later navigation
+        this.registerMessage = result.Message;
+
+
     }
     protected override void OnInitialized()
     {
+        
         max = DateOnly.FromDateTime(DateTime.Now);
         min = max.AddYears(-100);
     }

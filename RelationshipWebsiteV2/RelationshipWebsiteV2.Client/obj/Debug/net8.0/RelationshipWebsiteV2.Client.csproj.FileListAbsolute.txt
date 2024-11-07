@@ -41,6 +41,8 @@ C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\Re
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\netstandard.wasm
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\RelationshipWebsiteV2.Client.pdb
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\RelationshipWebsiteV2.Client.wasm
+C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\RelationshipWebsiteV2.Shared.pdb
+C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\RelationshipWebsiteV2.Shared.wasm
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\System.AppContext.wasm
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\System.Buffers.wasm
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\System.Collections.Concurrent.wasm
@@ -330,6 +332,7 @@ C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\Re
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\System.Dynamic.Runtime.wasm.gz
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.wasm.gz
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\System.Core.wasm.gz
+C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\RelationshipWebsiteV2.Shared.pdb.gz
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\System.Xml.Linq.wasm.gz
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\System.Transactions.wasm.gz
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\System.Net.Ping.wasm.gz
@@ -378,6 +381,7 @@ C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\Re
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\System.Linq.Queryable.wasm.gz
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\System.Security.Cryptography.Cng.wasm.gz
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Serialization.wasm.gz
+C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\RelationshipWebsiteV2.Shared.wasm.gz
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\System.Diagnostics.Process.wasm.gz
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\System.Linq.wasm.gz
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\wwwroot\_framework\System.Private.CoreLib.wasm.gz
@@ -612,12 +616,15 @@ C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\Re
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\icudt_CJK.dat
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\icudt_EFIGS.dat
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\icudt_no_CJK.dat
+C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\RelationshipWebsiteV2.Shared.dll
+C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\bin\Debug\net8.0\RelationshipWebsiteV2.Shared.pdb
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\RelationshipWebsiteV2.Client.csproj.AssemblyReference.cache
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\RelationshipWebsiteV2.Client.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\RelationshipWebsiteV2.Client.AssemblyInfoInputs.cache
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\RelationshipWebsiteV2.Client.AssemblyInfo.cs
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\RelationshipWebsiteV2.Client.csproj.CoreCompileInputs.cache
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\RelationshipWebsiteV2.Client.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\RelationshipWebsiteV2.Client.sourcelink.json
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\webcil\BlazorBootstrap.wasm
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.wasm
@@ -810,6 +817,7 @@ C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\Re
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\webcil\mscorlib.wasm
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\webcil\netstandard.wasm
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\webcil\System.Private.CoreLib.wasm
+C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\webcil\RelationshipWebsiteV2.Shared.wasm
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\webcil\RelationshipWebsiteV2.Client.wasm
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\blazor.build.boot-extension.json
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\blazor.boot.json
@@ -1023,6 +1031,8 @@ C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\Re
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\compressed\0chkinb02w.gz
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\compressed\yj3nzvbsap.gz
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\compressed\omfwhw5rqv.gz
+C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\compressed\uumucvdyq1.gz
+C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\compressed\mu2qxjckry.gz
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\compressed\9aedp68wil.gz
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\compressed\b75klw6yb3.gz
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\compressed\fveyapdap7.gz
@@ -1031,4 +1041,3 @@ C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\Re
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\refint\RelationshipWebsiteV2.Client.dll
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\RelationshipWebsiteV2.Client.pdb
 C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\ref\RelationshipWebsiteV2.Client.dll
-C:\Users\Andrew Vape\source\repos\RelationshipWebsiteV2\RelationshipWebsiteV2\RelationshipWebsiteV2.Client\obj\Debug\net8.0\RelationshipWebsiteV2.Client.sourcelink.json

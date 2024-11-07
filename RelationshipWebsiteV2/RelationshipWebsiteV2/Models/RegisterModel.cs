@@ -27,7 +27,7 @@ namespace RelationshipWebsiteV2.Models
 
 
         [MinAge(18)]
-        public DateOnly? Birthdate { get; set; }
+        public DateOnly Birthdate { get; set; }
 
 
     }
